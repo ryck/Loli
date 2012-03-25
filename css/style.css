@@ -35,9 +35,11 @@ body {
     position: relative;
     display: none;
 }
+#home-slides .slides img {
+	display: block;
+}
 .flyer {
     background-color: #007A99;
-    border-radius: 5px 5px 5px 5px;
     color: #FFFFFF;
 }
 .flyer-container {
