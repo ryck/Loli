@@ -7,7 +7,9 @@
 .navbar-inner .container {
 	position: relative;
 }
-
+.navbar-fixed-top .navbar-inner {
+	border-bottom: 1px solid #fff;
+}
 .header-right {
     right: 0;
     top: 7px;
@@ -28,8 +30,10 @@ body {
 	
 }
 #home-slides {
-	position: relative;
+	background-color: #F9F9F9;
+	box-shadow: 0 0 10px silver;
 	padding-bottom: 20px;
+	position: relative;
 }
 #home-slides .slides > li {
     position: relative;
