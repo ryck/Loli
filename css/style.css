@@ -35,6 +35,9 @@ body {
     position: relative;
     display: none;
 }
+#home-slides .slides > li.first {
+	display: block;
+}
 #home-slides .slides img {
 	display: block;
 }

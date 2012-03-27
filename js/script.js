@@ -5,7 +5,8 @@ $(function(){
   $("#home-slides").flexslider({
   	animation: "slide",
   	slideshow: false, 
-  	directionNav: false 
+  	directionNav: false,
+  	randomize: false 
   });
 });
 
